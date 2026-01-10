@@ -35,11 +35,13 @@ Start the test by forking this repository, and complete the following tasks:
 - `DELETE /api/v1/organizations/{organizationId}/messages/{id}` - Delete a message
 
 **Question 1:** Describe your implementation approach and the key decisions you made.
+
 **Answer 1:** I had used the CLEAN architecture, Changed some files to different libraries as per CLEAN architecture. Kept DTO's, Mappers, Interfaces in Application layer. Kept Models in Domain layer, Implemented Repository in Infrastructure layer.
 We have added the Dependency Injection in program.cs by using extension methods.
 
 **Question 2:** What would you improve or change if you had more time?
-**Answer 1:** I would have implemented the business Class between Controller and Repository layer. Implement the Global exception handling. Logging each and every request and response, Appending Correlation-id in the Request header if not appended adding dynamically.
+
+**Answer 2:** I would have implemented the business Class between Controller and Repository layer. Implement the Global exception handling. Logging each and every request and response, Appending Correlation-id in the Request header if not appended adding dynamically.
 
 commit the code as task-1
 
