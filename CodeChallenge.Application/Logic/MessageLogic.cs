@@ -33,6 +33,7 @@ namespace CodeChallenge.Application.Logic
 
         public async Task<Message?> GetMessageAsync(Guid organizationId, Guid id)
         {
+            //Hi;
             throw new NotImplementedException();
         }
 
