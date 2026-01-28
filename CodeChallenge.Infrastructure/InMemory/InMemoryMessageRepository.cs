@@ -74,6 +74,8 @@ namespace CodeChallenge.Infrastructure.InMemory
         {
             lock (_lock)
             {
+                hii
+                ////hello;
                 if (_messages.TryGetValue(id, out var message) && message.OrganizationId == organizationId)
                 {
                     return Task.FromResult(_messages.Remove(id));
